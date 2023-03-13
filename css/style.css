@@ -1,3 +1,133 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.first-container {
+    width: 100%;
+    margin: auto;
+    padding: 0 0 0 0;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0080ff;
+    text-decoration: none;
+    padding: 0 200px 0 0;
+    margin: 0 0 0 0;
+    
+}
+
+.nav-button{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 0 0 200px;
+}
+.nav-item{
+    padding: 0 15px;
+    margin: 0 0 0 0;
+
+}
+
+
+@media (max-width: 768px) {
+    .navbar-phone {
+      display: block;
+    }
+}
+
+.second-container{
+    width: 100%;
+    margin: auto;
+    padding: 0 0 0 0;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 30px 10%;
+    margin: 0 0 0 0;
+}
+.fourth-container{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50px;
+    
+    justify-content: center;
+    align-items: center;   
+    padding: 30px 10%;
+    margin: 0 0 0 0;
+}
+.fiveth-container{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;   
+    padding: 30px 10%;
+    margin: 0 0 0 0;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 0 0 0;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 0 0 0;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
